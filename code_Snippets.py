@@ -13,3 +13,7 @@ past_time = now - timedelta(hours=5)
 print("Date and Time 5 hours ago:", past_time)
 
 #############################################################
+#Check for Duplicates
+def chk_dup(ls):
+    return len(ls) != len(set(ls))
+##############################################################
