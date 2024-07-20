@@ -17,3 +17,8 @@ print("Date and Time 5 hours ago:", past_time)
 def chk_dup(ls):
     return len(ls) != len(set(ls))
 ##############################################################
+# lambda arguments : expression
+add = lambda x, y: x + y
+print(add(5, 3))
+
+############################################################
